@@ -1,0 +1,6 @@
+main.js
+main.js.map
+src/**/*.js
+src/**/*.map
+!src/systemjs.config.extras.js
+!src/systemjs.config.js
