@@ -1,0 +1,17 @@
+﻿body {
+    background-color: #e8e8e8;
+}
+
+.navigator {
+    background-color: #202020;
+}
+
+.well {
+    background-color: rgb(207, 216, 220);
+    color: black;
+}
+
+.hoverwell:hover {
+    background-color: #8395a8;
+    cursor: pointer;
+}
