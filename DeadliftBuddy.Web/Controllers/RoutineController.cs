@@ -14,6 +14,7 @@ namespace DeadliftBuddy.Web.Controllers
             List<Routine> routines = new List<Routine>();
 
             Routine routine = new Routine();
+            routine.Id = 1;
             routine.Name = "Push Pull Legs";
             routine.Exercises = new List<Exercise>();
 
@@ -60,6 +61,7 @@ namespace DeadliftBuddy.Web.Controllers
             routines.Add(routine);
 
             routine = new Routine();
+            routine.Id = 2;
             routine.Name = "Texas Method";
             routine.Exercises = new List<Exercise>();
 
@@ -83,10 +85,11 @@ namespace DeadliftBuddy.Web.Controllers
 
             return routines;
         }
-        public string GetRoutine(int id)
+        public Routine GetRoutine(int id)
         {
             Routine routine = new Routine();
-            routine.Name = "Push Pull Legs";
+            routine.Id = id;
+            routine.Name = $"{id}:Push Pull Legs";
             routine.Exercises = new List<Exercise>();
 
             Exercise exercise = new Exercise();
@@ -109,7 +112,7 @@ namespace DeadliftBuddy.Web.Controllers
             exercise.Description = "Calf Raise 2x10 150";
             routine.Exercises.Add(exercise);
 
-            return JsonConvert.SerializeObject(routine);
+            return routine;
         }
     }
 }

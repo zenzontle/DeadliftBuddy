@@ -1,4 +1,4 @@
-﻿<div class="well hoverwell thumbnail">
+﻿<div [routerLink]="['/routines', routine.Id]" class="well hoverwell thumbnail">
     <h2>{{routine.Name | uppercase}}</h2>
     <div *ngFor="let exercise of routine?.Exercises">
         {{exercise.Description}}

@@ -15,6 +15,12 @@ export class RoutineService {
         }).catch(this.handleError);
     }
 
+    public getRoutine(id: number): Observable<IRoutine> {
+        return this.httpService.get(`http://localhost:64386/api/routine/${id}`).map((response) => {
+            return <IRoutine>response.json();
+        }).catch(this.handleError);
+    }
+
     private handleError(error) {
         console.log(error.statusText);
         return Observable.throw(error.statusText);

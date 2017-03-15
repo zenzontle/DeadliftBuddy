@@ -122,9 +122,11 @@
     <TypeScriptCompile Include="app\routine\routine-details.component.ts" />
     <TypeScriptCompile Include="app\routine\routine-list.component.ts" />
     <TypeScriptCompile Include="app\routine\routine-thumbnail.component.ts" />
+    <TypeScriptCompile Include="app\services\routine-resolver.service.ts" />
     <TypeScriptCompile Include="app\services\routine.model.ts" />
     <TypeScriptCompile Include="app\services\routine.service.ts" />
     <TypeScriptCompile Include="main.ts" />
+    <TypeScriptCompile Include="app\routes.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
