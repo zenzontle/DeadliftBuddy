@@ -1,0 +1,6 @@
+﻿<div class="well hoverwell thumbnail">
+    <h2>{{routine.Name | uppercase}}</h2>
+    <div *ngFor="let exercise of routine?.Exercises">
+        {{exercise.Description}}
+    </div>
+</div>

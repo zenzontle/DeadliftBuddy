@@ -81,14 +81,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\nav\navbar-dashboard.component.css" />
+    <Content Include="app\nav\navbar-routine.component.html" />
+    <Content Include="app\nav\navbar-routine.component.css" />
+    <Content Include="app\routine\routine-details.component.css" />
+    <Content Include="app\routine\routine-details.component.html" />
+    <Content Include="app\routine\routine-list.component.html" />
+    <Content Include="app\routine\routine-thumbnail.component.css" />
+    <Content Include="app\routine\routine-thumbnail.component.html" />
     <Content Include="favicon.ico" />
     <Content Include="index.html" />
+    <Content Include="logo.png" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="systemjs.config.extras.js" />
     <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="app\app.component.html" />
+    <Content Include="app\nav\navbar-dashboard.component.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -105,6 +115,11 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\nav\navbar-dashboard.component.ts" />
+    <TypeScriptCompile Include="app\nav\navbar-routine.component.ts" />
+    <TypeScriptCompile Include="app\routine\routine-details.component.ts" />
+    <TypeScriptCompile Include="app\routine\routine-list.component.ts" />
+    <TypeScriptCompile Include="app\routine\routine-thumbnail.component.ts" />
     <TypeScriptCompile Include="app\services\routine.model.ts" />
     <TypeScriptCompile Include="app\services\routine.service.ts" />
     <TypeScriptCompile Include="main.ts" />
@@ -112,6 +127,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -4,3 +4,4 @@ app/**/*.js
 app/**/*.map
 !systemjs.config.extras.js
 !systemjs.config.js
+.vscode/
