@@ -2,5 +2,11 @@
     height: 210px;
     overflow: hidden;
 }
-.pad-left { margin-left: 10px; }
-.well div {color: #0f187d}
+
+.pad-left {
+    margin-left: 10px;
+}
+
+.well div {
+    color: #0f187d;
+}

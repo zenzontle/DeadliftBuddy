@@ -1,7 +1,13 @@
 ﻿.nav.navbar-nav {
     font-size: 15px;
 }
+
 .logo {
     padding: 7px;
 }
-@media (max-width: 1000px) {#searchForm {display:none}}
+
+@media (max-width: 1000px) {
+    #searchForm {
+        display: none;
+    }
+}
