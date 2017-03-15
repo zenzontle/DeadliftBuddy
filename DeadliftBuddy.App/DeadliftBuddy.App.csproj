@@ -92,6 +92,7 @@
     <Content Include="favicon.ico" />
     <Content Include="index.html" />
     <Content Include="logo.png" />
+    <Content Include="logo_original.png" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="systemjs.config.extras.js" />
