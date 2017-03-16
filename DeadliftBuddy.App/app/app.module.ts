@@ -1,6 +1,6 @@
 ﻿import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
@@ -15,6 +15,8 @@ import { RoutineDetailsComponent } from './routine/routine-details.component';
 import { RoutineResolver } from './services/routine-resolver.service';
 import { RoutineService } from './services/routine.service';
 
+import { Error404Component } from './errors/404.component';
+
 import { appRoutes } from './routes';
 
 @NgModule({
@@ -24,7 +26,8 @@ import { appRoutes } from './routes';
         RoutineListComponent,
         RoutineThumbnailComponent,
         NavBarRoutineComponent,
-        RoutineDetailsComponent
+        RoutineDetailsComponent,
+        Error404Component
     ],
     providers: [
         RoutineService,
@@ -33,6 +36,7 @@ import { appRoutes } from './routes';
     imports: [
         BrowserModule,
         FormsModule,
+        ReactiveFormsModule,
         HttpModule,
         RouterModule.forRoot(appRoutes)
     ],

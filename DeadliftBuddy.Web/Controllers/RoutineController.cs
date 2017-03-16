@@ -83,13 +83,18 @@ namespace DeadliftBuddy.Web.Controllers
 
             routines.Add(routine);
 
+            routines.Add(new Routine() { Id = 3, Name = "Test1" });
+            routines.Add(new Routine() { Id = 3, Name = "Test2" });
+            routines.Add(new Routine() { Id = 3, Name = "Test3" });
+            routines.Add(new Routine() { Id = 3, Name = "Test4" });
+
             return routines;
         }
         public Routine GetRoutine(int id)
         {
             Routine routine = new Routine();
             routine.Id = id;
-            routine.Name = $"{id}:Push Pull Legs";
+            routine.Name = "Push Pull Legs";
             routine.Exercises = new List<Exercise>();
 
             Exercise exercise = new Exercise();

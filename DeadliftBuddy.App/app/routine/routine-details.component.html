@@ -1,3 +1,8 @@
 ﻿<div>
-    {{routine.Id}}:{{routine.Name}}
+    <h2>{{routine.Name | uppercase}}</h2>
+    <div class="container-fluid">
+        <div class="row" *ngFor="let exercise of routine?.Exercises">
+            <h4>{{exercise.Description}}</h4>
+        </div>
+    </div>
 </div>

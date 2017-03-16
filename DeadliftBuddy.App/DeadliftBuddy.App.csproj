@@ -86,6 +86,7 @@
     <Content Include="app\nav\navbar-routine.component.css" />
     <Content Include="app\routine\routine-details.component.css" />
     <Content Include="app\routine\routine-details.component.html" />
+    <Content Include="app\routine\routine-list.component.css" />
     <Content Include="app\routine\routine-list.component.html" />
     <Content Include="app\routine\routine-thumbnail.component.css" />
     <Content Include="app\routine\routine-thumbnail.component.html" />
@@ -117,6 +118,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\errors\404.component.ts" />
     <TypeScriptCompile Include="app\nav\navbar-dashboard.component.ts" />
     <TypeScriptCompile Include="app\nav\navbar-routine.component.ts" />
     <TypeScriptCompile Include="app\routine\routine-details.component.ts" />
