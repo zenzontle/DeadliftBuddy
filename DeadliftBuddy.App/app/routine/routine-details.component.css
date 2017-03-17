@@ -8,7 +8,10 @@
     border-radius: 15px;
 }
 
-
-.exercise-info {
+.exercise-details {
     display: inline;
+}
+
+.weight-controls {
+    float: right;
 }

@@ -15,3 +15,8 @@
     background-color: #8395a8;
     cursor: pointer;
 }
+
+.displaycontainer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
