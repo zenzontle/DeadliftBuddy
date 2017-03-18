@@ -2,9 +2,10 @@
     <h2>{{routine.Name | uppercase}}</h2>
     <div class="container-fluid">
         <div class="row" *ngFor="let exercise of routine?.Exercises">
-            <h4 class="exercise-details">{{exercise.Description}}</h4>
-            <div class="exercise-details weight-controls">
+            <h4 class="col-md-10">{{exercise.Description}}</h4>
+            <div class="col-md-2">
                 <button type="button" class="btn btn-circle"><i class="fa fa-minus"></i></button>
+                <h4 class="weight-details">{{exercise.CurrentWeight}}</h4>
                 <button type="button" class="btn btn-circle"><i class="fa fa-plus"></i></button>
             </div>
         </div>

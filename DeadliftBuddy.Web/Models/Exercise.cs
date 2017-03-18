@@ -8,5 +8,7 @@ namespace DeadliftBuddy.Web.Models
         public int Id { get; set; }
         [Required]
         public string Description { get; set; }
+        [Required]
+        public decimal CurrentWeight { get; set; }
     }
 }

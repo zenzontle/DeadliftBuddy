@@ -15,3 +15,8 @@
 .weight-controls {
     float: right;
 }
+
+.weight-details {
+    display: inline;
+    width: 200px;
+}
