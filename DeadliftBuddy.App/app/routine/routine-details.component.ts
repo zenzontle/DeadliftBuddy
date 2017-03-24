@@ -5,7 +5,6 @@ import { FormControl, FormGroup } from '@angular/forms';
 import { IRoutine } from '../services/routine.model';
 
 @Component({
-    moduleId: module.id,
     selector: 'routine-details',
     templateUrl: 'routine-details.component.html',
     styleUrls: ['routine-details.component.css']

@@ -97,11 +97,10 @@
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="styles.css" />
-    <Content Include="systemjs.config.extras.js" />
-    <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="app\app.component.html" />
     <Content Include="app\nav\navbar-dashboard.component.html" />
+    <Content Include="webpack.config.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -3,7 +3,6 @@
 import { IRoutine } from '../services/routine.model';
 
 @Component({
-    moduleId: module.id,
     selector: 'routine-thumbnail',
     templateUrl: 'routine-thumbnail.component.html',
     styleUrls: ['routine-thumbnail.component.css']

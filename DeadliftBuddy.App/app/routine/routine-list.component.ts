@@ -4,7 +4,6 @@ import { RoutineService } from '../services/routine.service';
 import { IRoutine } from '../services/routine.model';
 
 @Component({
-    moduleId: module.id,
     selector: 'routine-list',
     templateUrl: 'routine-list.component.html',
     styleUrls: ['routine-list.component.css']
