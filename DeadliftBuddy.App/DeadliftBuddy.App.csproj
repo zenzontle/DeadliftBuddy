@@ -101,6 +101,7 @@
     <Content Include="app\app.component.html" />
     <Content Include="app\nav\navbar-dashboard.component.html" />
     <Content Include="webpack.config.js" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
