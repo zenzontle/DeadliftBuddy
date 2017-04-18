@@ -1,5 +1,6 @@
 /// <binding BeforeBuild='Run - Development' />
 "use strict";
+var webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -18,5 +19,10 @@ module.exports = {
             { test: /\.ts/, loader: ['awesome-typescript-loader', 'angular2-template-loader'] },
         ]
     },
+    plugins: [
+        new webpack.ContextReplacementPlugin(
+            /angular(\\|\/)core(\\|\/)@angular/, path.resolve('./app')
+            ),
+    ],
     devtool: '#source-map'
 };
