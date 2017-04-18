@@ -4,13 +4,13 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@types/node": "7.0.8",
+    "@types/node": "7.0.13",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.1.2",
     "path": "^0.12.7",
     "raw-loader": "^0.5.1",
-    "typescript": "^2.2.1",
-    "webpack": "^2.3.1"
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
   },
   "dependencies": {
     "@angular/common": "^2.4.0",
@@ -23,11 +23,11 @@
     "@angular/router": "^3.4.8",
 
     "core-js": "^2.4.1",
-    "fontawesome": "^4.7.0",
-    "ng2-bootstrap": "^1.4.0",
+    "fontawesome": "^4.7.2",
+    "ng2-bootstrap": "^1.6.3",
     "reflect-metadata": "^0.1.10",
-    "rxjs": "^5.2.0",
-    "systemjs": "^0.20.9",
-    "zone.js": "^0.7.6"
+    "rxjs": "^5.3.0",
+    "systemjs": "^0.20.12",
+    "zone.js": "^0.8.5"
   }
 }
